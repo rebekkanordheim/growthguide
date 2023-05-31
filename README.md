@@ -15,7 +15,7 @@ The big difference in this task is that I have made a carousel on the home-page,
 - Figma (for design)
 - HTML
 - CSS
-- JavaScript for fetching API and making a carousel. 
+- JavaScript (for fetching API and making a carousel) 
 
 ## Getting Started
 
