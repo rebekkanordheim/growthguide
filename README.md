@@ -25,7 +25,7 @@ This is where you list how to get the project started. It typically just include
 
 Clone the repo:
 
-" https://github.com/rebekkanordheim/SemesterProject1 "
+" https://github.com/rebekkanordheim/growthguide "
 
 ### Running
 
