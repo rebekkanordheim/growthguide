@@ -1,67 +1,47 @@
-## Project Exam 1
+# Growth Guide - Project Exam 1
 
-## Goal
+![image](images/Skjermbilde%202023-05-31%20kl.%2022.37.02.png)
 
-To put into practice the skills learned over your first year of studies.
+## Description
 
-## Brief
-You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
--	Home page
--	About page
--	List of blog posts
--	Blog post specific pages
--	Contact page.
+This was the last big exam in my first year as a front end development student. The task was to make a website, a blog, where i could choos the theme and the "customer" myself. So I decided to make a blog which writes about different themes so that people could read the posts, and use it as a guide for growing and becoming a better and stronger person. 
 
-### Home Page
-The home page should have a ‘Latest Posts’ section which uses a carousel (slider) for users to click to view more posts. For example, by default the user can see four posts, then they can click an arrow on the right to view the next four posts, and click it again to view the next four posts. The user can also click back to view results they had previously seen. This must be implemented for desktop at least, but if you want a simpler layout for mobile, you can change it from being in a carousel.
+The thing i find very fun in this exam is that I can make everything myself, from making the logo, deciding the colors and the design on the whole page.
 
-### Blog Page
+The big difference in this task is that I have made a carousel on the home-page, which is showing different images and read-more buttons, which are linking to different blog posts. These blog posts aren't hard-coded but are fetched from an API on rebekkanordheim.no 
 
-The blog posts page should show the first 10 blogs, and the user should click to view more results which then show underneath the first 10 blogs.
+## Built With
 
-### Blog Specific Page
+- Figma (for design)
+- HTML
+- CSS
+- JavaScript for fetching API and making a carousel. 
 
-The content of the blog specific page should be dynamically built using a query string parameter based on whatever link the user clicked. The title of the blog specific page should change based on the blog that has been clicked on e.g. “My Blog | An Article I Wrote”.
+## Getting Started
 
-If images on the blog post page are clicked, a modal should appear giving the user a bigger view of that image. Clicking outside the image should hide the modal.
+### Installing
 
-### Contact page
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
-Create a contact us page, there should be 4 textboxes on this page.
--	Name (Should be more than 5 characters long)
--	Email address (Must be a valid email address)
--	Subject (Should be more than 15 characters long)
--	Message content (Should be more than 25 characters long)
+Clone the repo:
 
-Please use JavaScript for validation, show error messages if the values in the textboxes do not meet the requirements.
+" https://github.com/rebekkanordheim/SemesterProject1 "
 
-### WordPress
+### Running
 
-The content for your website will be stored on a WordPress installation used as a Headless CMS. It’s important to note that we are only using WordPress to provide an API and add content for the blog. You should not submit a link to a WordPress site, but build your website using HTML, CSS and JavaScript and making a call to the WordPress REST API to fetch the data. 
+You need to clone the repositody from GitHub to your GitHub, and then you have all the code there and can start the website using LiveServer.
+This is all that you need to start this simle website.
 
-The project has two aspects:
--	API from your WordPress installation
--	Your website built with HTML, CSS and JavaScript
+## Contributing
 
-You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
+Make sure to open a pull request so code can be reviewed.
 
-Note that this is an exam, and therefore tutor support will be limited as per the study plan.
+## Contact
 
-## Level 1 Process
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-1.	Decide on the theme for the blog you’re going to make
-2.	Create a prototype of the website
-3.	Install WordPress on your web host and add the blogs on the admin panel. 
-4.	Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5.	Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6.	Install Hotjar on your website.
-7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8.	Write a report documenting your project (template provided in this repository).
-9.	Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
- 
-## Level 2 Process (optional)
+[My LinkedIn page](https://no.linkedin.com/in/rebekka-nordheim-903377194)
 
-1.	You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for. 
-2.	Post the data from the contact form to WordPress so you have the details saved.
-3.	Allow users to submit comments on a blog post, and post this data to WordPress
+## Authors
 
+Rebekka Nordheim, Student at Noroff - Front End Development 1st year student.
